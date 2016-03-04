@@ -18,6 +18,4 @@ var req = http.request(options,function(res){
 req.on('error', function (e) {  
     console.log('problem with request: ' + e.message);  
 }); 
-i=2
-++i + ++i
 req.end();
